@@ -2,26 +2,48 @@
   "messages": [
     {
       "role": "user",
-      "content": "how is the weather?",
-      "id": "9b6e5ffd-56da-4042-a503-d292cd79d093",
-      "createdAt": "2024-11-05T19:34:16.767Z"
+      "content": "How is the weather?",
+      "id": "f24fd9e1-5ce4-4f17-a5af-ef6f6e476829",
+      "createdAt": "2025-05-05T18:42:39.149Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Could you please specify the location for which you would like to know the weather?",
+      "refusal": null,
+      "annotations": [],
+      "id": "48b797d7-9551-4660-8797-9ccced0947f7",
+      "createdAt": "2025-05-05T18:42:40.321Z"
+    },
+    {
+      "role": "user",
+      "content": "MN",
+      "id": "1b61cd41-e2cd-48b9-93f8-4676ed97589d",
+      "createdAt": "2025-05-05T18:43:40.687Z"
     },
     {
       "role": "assistant",
       "content": null,
       "tool_calls": [
         {
-          "id": "call_Pd2L6OWnviQmRf7RicWtvE6Y",
+          "id": "call_LMFTXWSZPo1DqMChvI7B5fnf",
           "type": "function",
           "function": {
-            "name": "get_stuff",
-            "arguments": "{\"reasoning\":\"To provide accurate weather information.\"}"
+            "name": "get_weather",
+            "arguments": "{\"reasoning\":\"User requested the current weather for Minnesota (MN).\"}"
           }
         }
       ],
       "refusal": null,
-      "id": "7c3e8fdd-f7f8-4103-9ac4-a361671aca41",
-      "createdAt": "2024-11-05T19:34:17.996Z"
+      "annotations": [],
+      "id": "1635413f-d9ba-4f62-9f41-c0bf6e300339",
+      "createdAt": "2025-05-05T18:43:41.597Z"
+    },
+    {
+      "role": "tool",
+      "content": "hot, 90deg",
+      "tool_call_id": "call_LMFTXWSZPo1DqMChvI7B5fnf",
+      "id": "c119b58c-1955-4414-8630-c644a044a24a",
+      "createdAt": "2025-05-05T18:43:41.599Z"
     }
   ]
 }
