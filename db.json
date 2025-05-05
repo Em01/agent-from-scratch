@@ -2,89 +2,109 @@
   "messages": [
     {
       "role": "user",
-      "content": "how is the weather?",
-      "id": "701f4dae-c9e4-4b38-a364-27923011820a",
-      "createdAt": "2024-11-05T20:14:23.306Z"
+      "content": "hi",
+      "id": "3b8c2991-ee88-46bf-b1f5-723e8bb3481b",
+      "createdAt": "2025-05-05T19:21:56.921Z"
     },
     {
       "role": "assistant",
-      "content": "Could you please specify the location for which you would like to know the weather?",
+      "content": "Hello! How can I assist you today?",
       "refusal": null,
-      "id": "69bb4b06-eda2-44a4-bf31-2c82f15e282e",
-      "createdAt": "2024-11-05T20:14:24.508Z"
+      "annotations": [],
+      "id": "31460b9c-1de2-4a37-a0bb-376d6afdccaa",
+      "createdAt": "2025-05-05T19:21:58.000Z"
     },
     {
       "role": "user",
-      "content": "MN",
-      "id": "21a75a5e-335e-4344-946e-a9096adcb020",
-      "createdAt": "2024-11-05T20:15:21.482Z"
+      "content": "hi my name is waffle",
+      "id": "308fda17-d963-4144-8b7f-eba6336bce15",
+      "createdAt": "2025-05-05T19:23:11.969Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Nice to meet you, Waffle! How can I help you today?",
+      "refusal": null,
+      "annotations": [],
+      "id": "a9ca4070-f3d2-46b2-af6f-40c093edf918",
+      "createdAt": "2025-05-05T19:23:12.795Z"
+    },
+    {
+      "role": "user",
+      "content": "What is the weather in London",
+      "id": "544cfc9e-c62d-461f-9a21-9f48a52627d0",
+      "createdAt": "2025-05-05T19:23:34.423Z"
     },
     {
       "role": "assistant",
       "content": null,
       "tool_calls": [
         {
-          "id": "call_mdnBRU7F6Up7dyX1iboyCE87",
+          "id": "call_ySCGzAXvUmIGFtZZsQY7FCyW",
           "type": "function",
           "function": {
             "name": "get_weather",
-            "arguments": "{\"reasoning\":\"User requested the current weather for Minnesota.\"}"
+            "arguments": "{\"reasoning\":\"User asked for the current weather in London.\"}"
           }
         }
       ],
       "refusal": null,
-      "id": "5526aa4e-f64d-4c96-adf4-7b975448a1bd",
-      "createdAt": "2024-11-05T20:15:22.319Z"
+      "annotations": [],
+      "id": "9ae53db3-5fc6-4e77-8ed0-f20cca343751",
+      "createdAt": "2025-05-05T19:23:35.210Z"
     },
     {
       "role": "tool",
       "content": "hot, 90deg",
-      "tool_call_id": "call_mdnBRU7F6Up7dyX1iboyCE87",
-      "id": "a5c81e09-6d9f-4146-bba0-b2802e34b376",
-      "createdAt": "2024-11-05T20:15:22.321Z"
-    },
-    {
-      "role": "user",
-      "content": "what was the weather again?",
-      "id": "8f197479-ca7a-4706-a17d-7077cec92bbb",
-      "createdAt": "2024-11-05T20:20:12.279Z"
+      "tool_call_id": "call_ySCGzAXvUmIGFtZZsQY7FCyW",
+      "id": "9e6487d8-8ab0-44dc-ae9d-31431ec523f6",
+      "createdAt": "2025-05-05T19:23:35.213Z"
     },
     {
       "role": "assistant",
-      "content": "The current weather in Minnesota is hot, with a temperature of 90 degrees.",
+      "content": "The weather in London is currently hot, with a temperature of 90°F. If you need more details or have any other questions, feel free to ask!",
       "refusal": null,
-      "id": "fad8c276-ab2a-4f63-80a8-ea6e6e0c791c",
-      "createdAt": "2024-11-05T20:20:13.168Z"
+      "annotations": [],
+      "id": "b755bb37-9326-4210-8c57-d18df360093b",
+      "createdAt": "2025-05-05T19:23:36.228Z"
     },
     {
       "role": "user",
-      "content": "tell me what the weater is right now though",
-      "id": "e865f51a-1d23-40f8-9790-837159c75890",
-      "createdAt": "2024-11-05T20:20:36.192Z"
+      "content": "What is the weather in norway",
+      "id": "2b2b7623-20bc-4e88-babe-6ceef22feba4",
+      "createdAt": "2025-05-05T19:24:07.654Z"
     },
     {
       "role": "assistant",
       "content": null,
       "tool_calls": [
         {
-          "id": "call_jbSaq6EgBFbWm3Xg5bUW0pN5",
+          "id": "call_7keVW2WT46uUhSqoYEmkN4G8",
           "type": "function",
           "function": {
             "name": "get_weather",
-            "arguments": "{\"reasoning\":\"User is asking for the current weather conditions in Minnesota.\"}"
+            "arguments": "{\"reasoning\":\"User asked for the current weather in Norway.\"}"
           }
         }
       ],
       "refusal": null,
-      "id": "9ef38aeb-7be2-4e87-aa81-f9fa046cb346",
-      "createdAt": "2024-11-05T20:20:37.040Z"
+      "annotations": [],
+      "id": "ffa549fc-eef6-412a-a026-bb51d6b43611",
+      "createdAt": "2025-05-05T19:24:08.544Z"
     },
     {
       "role": "tool",
       "content": "hot, 90deg",
-      "tool_call_id": "call_jbSaq6EgBFbWm3Xg5bUW0pN5",
-      "id": "dc465b38-ddb2-4e60-bbd8-f1cca4727aa9",
-      "createdAt": "2024-11-05T20:20:37.041Z"
+      "tool_call_id": "call_7keVW2WT46uUhSqoYEmkN4G8",
+      "id": "2e4866f8-8f28-45bd-a212-8901576bfee5",
+      "createdAt": "2025-05-05T19:24:08.548Z"
+    },
+    {
+      "role": "assistant",
+      "content": "The weather in Norway is also currently hot, with a temperature of 90°F. If you have any other questions or need more information, just let me know!",
+      "refusal": null,
+      "annotations": [],
+      "id": "f7fe0fff-1e0a-4d19-b7af-ddb7de38d182",
+      "createdAt": "2025-05-05T19:24:09.614Z"
     }
   ]
 }
