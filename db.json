@@ -2,27 +2,41 @@
   "messages": [
     {
       "role": "user",
-      "content": "what is my name?",
-      "id": "bd80859c-cd9f-4b41-9c50-0b5761c2657a",
-      "createdAt": "2024-11-05T17:40:01.921Z"
+      "content": "hi",
+      "id": "f9632332-2f5c-4d7e-80c5-0444c3074c9a",
+      "createdAt": "2025-05-04T19:24:57.698Z"
     },
     {
       "role": "assistant",
-      "content": "I'm sorry, but I don't have access to personal information about users unless it has been shared with me in the course of our conversation. If you'd like, you can tell me your name!",
-      "id": "f30a762d-a5f4-4754-9120-667de2f44c37",
-      "createdAt": "2024-11-05T17:40:02.824Z"
+      "content": "Hello! How can I assist you today?",
+      "refusal": null,
+      "annotations": [],
+      "id": "1af93fe6-aed9-4cb9-af98-7e56eb2a5b2d",
+      "createdAt": "2025-05-04T19:24:58.492Z"
     },
     {
       "role": "user",
-      "content": "My name is Scott",
-      "id": "a884ba5b-8ec3-482a-bd6c-18babe76ec05",
-      "createdAt": "2024-11-05T17:40:28.739Z"
+      "content": "how is ther weather",
+      "id": "94ef443a-dac6-4d00-baf0-a3614f0ef034",
+      "createdAt": "2025-05-04T19:25:13.095Z"
     },
     {
       "role": "assistant",
-      "content": "Nice to meet you, Scott! How can I assist you today?",
-      "id": "70a9b0ae-a6ec-4523-a4dd-81ce5c27e080",
-      "createdAt": "2024-11-05T17:40:29.361Z"
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_Y8yWkseSQPxMoSvuDATVL9iJ",
+          "type": "function",
+          "function": {
+            "name": "get_stuff",
+            "arguments": "{}"
+          }
+        }
+      ],
+      "refusal": null,
+      "annotations": [],
+      "id": "5a33f5b7-71cd-4a44-89b6-07e1c92f2bf6",
+      "createdAt": "2025-05-04T19:25:14.023Z"
     }
   ]
 }
